@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "parliamentvotes"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyswagger = "^0.8.39"
+textract = "^1.6.3"
+python-twitter = "^3.5.0"
+rdflib = "^5.0.0"
+rdflib-jsonld = "^0.5.0"
+pyodata = "^1.7.0"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
